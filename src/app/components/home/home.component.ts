@@ -73,7 +73,7 @@ export class HomeComponent implements OnInit {
         technologies: "Angular 15, ASP.NET Core, .NET 6, Entity Framework Core",
         category: "Management System.",
         description: "SafeOps is a management system designed for companies specializing in hygiene and safety. It enables efficient tracking of tasks, detailed reporting, and role-based access for different users. Built with Angular 15 for the front-end and an ASP.NET Core API with .NET 6 and Entity Framework Core for the back-end, the application delivers a robust and user-friendly platform for operational management.",    
-        thumbnail: { data: '/Projects/SafeOps/home.png', fileName: 'home.png' },
+        thumbnail: { data: '/assets/Projects/SafeOps/home.png', fileName: 'home.png' },
         photos: [
            { data: '/Projects/SafeOps/login.png', fileName: 'login', description: 'It has a role-based authentication system,"administrador","licenciado" and "tecnico" ' },
           { data: '/Projects/SafeOps/1.png', fileName: 'Administrator view', description: 'the administrator is in charge of creating the companies that require the hygiene and safety service.' },
