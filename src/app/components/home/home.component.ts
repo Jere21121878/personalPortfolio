@@ -64,6 +64,7 @@ export class HomeComponent implements OnInit {
   }
  
   openProjectModal(projectName: string): void {
+    const baseUrl = 'https://jere21121878.github.io/personalPortfolio/assets/';
     const projects: Projects = {
       SafeOps: {
         name: "SafeOps",
